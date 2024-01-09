@@ -1,0 +1,54 @@
+
+body{
+    background-color: rgb(200, 57, 57);
+    
+}
+
+header{
+    
+    background-image: linear-gradient(rgb(218, 191, 20), rgb(156, 60, 87));
+    background-repeat:no-repeat;
+    background-color: rgb(156, 60, 87);
+}
+
+ header h1, header h2{
+    margin: auto;
+    text-align: center;
+    font-family: 'Bungee Spice', sans-serif;
+}
+
+header h2{
+    font-size: 50px;
+    text-decoration: underline;
+    background-color: rgb(106, 33, 33); /*rgb(106, 33, 33);  is the red color you want */
+    border-style: dotted;
+    border-color: white;
+    color:rgb(255, 234, 4);
+    max-width: 500px;
+    padding:10px;
+    
+}
+li{
+    list-style: none;
+}
+
+ul{
+    text-transform: uppercase;
+    list-style-type:none;
+    display:block;
+    display: grid;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+span{
+    color: rgb(234, 255, 0);
+    font-size: large;
+}
+
+div{
+
+}

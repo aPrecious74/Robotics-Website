@@ -3,14 +3,14 @@
 
 body{
     background-color: rgb(200, 57, 57);
-    
+    max-width: 2700px;
 }
 
 header{
     
-    background-image: linear-gradient(rgb(218, 191, 20), rgb(156, 60, 87));
+    background-image: linear-gradient(rgb(218, 191, 20), rgb(160, 31, 67));
     background-repeat:no-repeat;
-    background-color: rgb(156, 60, 87);
+    background-color: rgb(161, 29, 66);
 }
 
  header h1, header h2{
@@ -50,11 +50,13 @@ nav a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     display:block;
+    margin:auto;
 }
 
 nav ul li{
     background-color: rgb(92, 100, 133);
     padding: 5px 50px;
+    margin:auto;
 }
 
 .changeco{
@@ -69,4 +71,27 @@ p{
 span{
     color: rgb(234, 255, 0);
     font-size: large;
+}
+
+img{
+    border-style: solid;
+    border-color: rgb(165, 136, 42);
+    margin:auto;
+    float:left;
+    max-width: 1300px;
+    max-height: 1000px;
+}
+
+.top-right{
+    margin:auto;
+    position: right;
+}
+
+footer{
+    
+    position: absolute;
+    bottom: 0;
+     width: 100%;
+     height: 3 rem;          /* Footer height */
+    background-color: rgb(32, 34, 31);
 }

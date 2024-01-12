@@ -6,6 +6,8 @@ latest updates on each team's robots, club events like fundraisers, our officer 
 
 It will be most beneficial if people miss our stories posted on our Instagram page. They can just hop on
 to the website through a link in our bio and BOOM!
+It poses as a secondary Instagram page for anyone who does not or can not have Instagram. The web is a 
+download-free space to Robotics!
 
 I hope that this website can also contribute to attracting newer club members as the Doherty Clubs page 
 lacks info. This website is meant to be an improvement of it.

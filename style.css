@@ -1,16 +1,17 @@
 
 
 
-body{
+html{
     background-color: rgb(200, 57, 57); /* rgb(200, 57, 57) */
-    max-width: 2700px;
+    max-width: 2500px;
 }
 
 header{
-    max-width: 2700px;
-    background-image: linear-gradient(rgb(218, 191, 20), rgb(160, 31, 67));
+    max-width: 2500px;
+    background-image: linear-gradient(rgb(255, 224, 25), rgb(160, 31, 67));
     background-repeat:no-repeat;
     background-color: rgb(161, 29, 66);
+    margin: auto;
     
 }
 
@@ -27,12 +28,36 @@ header h2{
     border-style: dotted;
     border-color: white;
     color:rgb(255, 234, 4);
-    max-width: 500px;
+    max-width: 700px;
     padding:10px;
     
 }
 
+ nav ul
+{
+    display:flex;
+    text-transform: uppercase;
+    list-style: none;
+    margin:auto;
+   
+   
+    
+}
 
+nav ul li{
+    margin:auto;
+    font-size: 20px;
+   
+   
+}
+nav a{
+    text-decoration: none;
+    display:block;
+   
+}
+
+
+/*
 nav ul, li {
     color: rgb(255, 255, 255);
     text-transform: uppercase;
@@ -59,6 +84,7 @@ nav ul li{
     padding: 5px 50px;
     margin:auto;
 }
+*/
 
 .changeco{
     background-color: rgb(121, 145, 128);

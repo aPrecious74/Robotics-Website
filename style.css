@@ -57,21 +57,24 @@ header h2{
 nav ul li{
     margin:auto;
     font-size: 20px;
-   padding: 5px 5px;
+    background-color: rgb(121, 145, 128);
    color: white;
+   
 }
 nav a{
     text-decoration: none;
     display:block;
     color: white;
-    background-color: rgb(121, 145, 128);
-    padding: 5px 5px
+    
+    padding: 5px 5px;
 }
+
 nav a:hover{
     background-color:rgb(98, 105, 104);
     font-size:large;
     transition: ease 0.05;
 }
+
 
 /*
 nav ul, li {
@@ -102,9 +105,7 @@ nav ul li{
 }
 */
 
-.changeco{
-    background-color: rgb(98, 105, 104);
-}
+
 
 
 p{

@@ -76,38 +76,6 @@ nav a:hover{
 }
 
 
-/*
-nav ul, li {
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    list-style: none;
-    text-decoration: none;
-    display:block;
-    transition: all ease 0.5s;
-    max-width: 1200px;
-    padding: 5px 50px;
-    margin:auto;
-    font-family: sans-serif;
-    display: flex;
-    text-align:center;
-}
-nav a{
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    display:block;
-    margin:auto;
-}
-
-nav ul li{
-    background-color: rgb(92, 100, 133);
-    padding: 5px 50px;
-    margin:auto;
-}
-*/
-
-
-
-
 p{
     font-size: 20px;
 }

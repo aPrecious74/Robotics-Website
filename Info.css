@@ -71,7 +71,26 @@ nav a{
 
 nav a:hover{
     background-color:rgb(98, 105, 104);
-    font-size:large;
+    
     transition: ease 0.05;
 }
+hr{
+    color:rgb(120, 80, 157);
+}
 
+.centerh{
+    margin:auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    background-color: rgb(170, 189, 204);
+    padding: 20px;
+    text-decoration: underline;
+}
+p{
+    margin:auto;
+    text-align: center;
+    font-size:29px;
+    padding:10px;
+    background-color: rgb(207, 186, 186);
+}

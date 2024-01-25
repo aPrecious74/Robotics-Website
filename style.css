@@ -181,7 +181,7 @@ main.div.h2:before{
     left:10px;
   }
   10%{
-    left:200px;
+    left:50px;
   }
   25% {
     transform: rotate(25deg);

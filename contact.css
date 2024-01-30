@@ -1,11 +1,12 @@
 html {
+  
     background-color: rgb(200, 57, 57);
     /* rgb(200, 57, 57) */
     max-width: 3000px;
 }
 
 body {
-    background-color: rgb(27, 27, 27);
+    background-color: rgb(206, 138, 138);
     max-width: 100vw;
     margin: 0;
     /* background-size: 1900px; */

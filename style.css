@@ -318,5 +318,8 @@ main div p{
     font-size: 23px;
 }
 
-
+.color{
+    color:rgb(46, 22, 22);
+    font-size: 17px;
+}
 }

@@ -223,7 +223,7 @@ main.div.h2:before{
         grid-template-rows: 135px 1fr auto;
         min-height: 100vh;
         width: 100%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(142, 61, 61);
         margin: auto;
     }
 
@@ -233,6 +233,7 @@ main.div.h2:before{
         margin: auto;
         width: 100%;
         height: 100%;
+        border-bottom:  thick double #32a1ce;;
     }
 
     header h1,
@@ -249,7 +250,9 @@ main.div.h2:before{
         font-size: 32px;
         text-decoration: underline;
         background-color: rgb(106, 33, 33);
-        border-style: dotted;
+        border-style:groove;
+        border-left: none;
+        border-right: none;
         border-color: white;
         color: rgb(255, 234, 4);
         max-width: 700px;
@@ -294,7 +297,7 @@ nav{
     }
 
 nav ul a:hover, a:focus {
-    color: rgb(98, 105, 104);
+    color: rgb(144, 155, 153);
 
     transition: ease 0.05;
 }
@@ -302,13 +305,18 @@ nav ul a:hover, a:focus {
 .center{
     margin-top: 40px;
     text-align: center;
-    background-color: rgb(82, 204, 208);
-    padding: 10px;
+    background-color: rgb(255, 216, 60);
+    padding: 10px;   
+}
+.top-right{
+    color: rgb(78, 24, 24);
+    text-decoration: underline;
+    margin-bottom:-20px;
 }
 
-
-
-
+main div p{
+    font-size 23px;
+}
 
 
 }

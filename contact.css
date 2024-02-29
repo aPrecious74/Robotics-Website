@@ -1,5 +1,5 @@
 
-body {
+body {/*structure format */
     display: grid;
     grid-template-rows: 160px 1fr auto;
     min-height: 100vh;
@@ -30,12 +30,12 @@ header h1{
 header h2 {
     font-size: 45px;
     background-color: rgb(255, 255, 255);
-    border-style:groove;
+    border-style: groove;
     border-left: none;
     border-right: none;
     border-color: white;
     color: rgb(255, 205, 5);
-    max-width: 100vw;
+    width: 100vw;
     padding: 10px;
     margin-bottom: -10px;
     text-align: center;
@@ -52,8 +52,8 @@ nav ul {
     padding: 2px;
     float: right;
     list-style: none;
-   padding-top:-27px;
-   
+    padding-top: -27px;
+
 }
 
 nav ul li {
@@ -61,8 +61,8 @@ nav ul li {
     text-align: center;
     list-style: none;
     padding-left: 25px;
-    
-    
+
+
 }
 
 
@@ -158,7 +158,7 @@ h1{
     text-align: center;
     margin: auto;
 }
-.formForm{
+.formForm{ /*The contact form */
    
     display: grid;
     font-size: 20px;
@@ -171,7 +171,7 @@ h1{
 input{
     font-size: 20px;
 }
-img{
+img{ /* image above the footer */
     margin: auto;
     display: grid;
     width: 100%;

@@ -1,7 +1,7 @@
 
 
 
-body {
+body { /* structure format */
     display: grid;
     grid-template-rows: 160px 1fr auto;
     min-height: 100vh;

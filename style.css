@@ -1,7 +1,7 @@
 @media (max-width: 500px) {
     /* Mobile */
 
-    body {
+    body { /* structure format */
         display: grid;
         grid-template-rows: 150px 1fr auto;
         min-height: 100vh;
@@ -17,7 +17,6 @@
         width: 100%;
         height: 100%;
         border-bottom: thick double #000000;
-        ;
         display: block;
 
     }
@@ -30,11 +29,11 @@
     }
 
     header h1 {
-        font-size: 27px;
+        font-size: 25px;
     }
 
     header h2 {
-        font-size: 45px;
+        font-size: 35px;
         background-color: rgb(255, 255, 255);
         border-style:groove;
         border-left: none;
@@ -58,14 +57,15 @@
         float: right;
         list-style: none;
         margin: auto;
-        margin-top: 8px;
+        padding-top: 20px;
     }
 
     nav ul li {
         display: flex;
         text-align: center;
         list-style: none;
-        padding-left: 25px;
+        margin:auto;
+        padding:9px;
 
 
     }
@@ -90,14 +90,14 @@
         transition: ease 0.05;
     }
 
-    .center {
+    .center { /* styling the News area */
         margin-top: 40px;
         text-align: center;
         background-image: linear-gradient(rgb(73, 111, 73), rgb(255, 216, 60));
         padding: 10px;
     }
 
-    .top-right {
+    .top-right { /*The header for the News */
         color: rgb(0, 0, 0);
         text-decoration: underline;
         margin-bottom: -20px;
@@ -107,7 +107,7 @@
         font-size: 23px;
     }
 
-    .color {
+    .color { /* the text right below "News" */
         color: rgb(46, 22, 22);
         font-size: 17px;
     }
@@ -116,7 +116,7 @@
         background-color: rgb(160, 31, 31);
     }
 
-    .foot-list {
+    .foot-list { /* The footer's list */
 
         font-family: sans-serif;
         text-transform: uppercase;
@@ -145,21 +145,11 @@
         padding-right: 30px;
     }
 
-    .past-center {
+    .past-center { /* past news */
         text-align: center;
         color: rgb(255, 255, 255);
         padding-bottom: 20px;
 
-    }
-
-    .textSpin {
-        background-size: contain;
-        min-height: 320px;
-        text-align: center;
-        font-size: 30px;
-        padding-top: 10px;
-        margin: auto;
-        display: block;
     }
 
     footer img {

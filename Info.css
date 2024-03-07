@@ -35,7 +35,7 @@ header h1 {
 }
 
 header h2 {
-    font-size: 35px;
+    font-size: 38px;
     background-color: rgb(255, 255, 255);
     border-style:groove;
     border-left: none;
@@ -68,7 +68,7 @@ nav ul li {
     list-style: none;
     margin:auto;
     padding:9px;
-
+    font-size: 17px;
 
 }
 

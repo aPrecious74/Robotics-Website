@@ -1,15 +1,19 @@
 @media (max-width: 500px) {
     /* Mobile */
 
-    body { /* structure format */
+    body {
+        /* structure format */
         display: grid;
         grid-template-rows: 150px 1fr auto;
         min-height: 100vh;
         width: 100%;
-        background-color: rgb(73, 111, 73);
+        background-color: rgb(43, 47, 43);
         margin: auto;
     }
 
+    * {
+        box-sizing: border-box;
+    }
 
     header {
         background-image: linear-gradient(rgb(237, 214, 99), rgb(109, 7, 36));
@@ -35,7 +39,7 @@
     header h2 {
         font-size: 35px;
         background-color: rgb(255, 255, 255);
-        border-style:groove;
+        border-style: groove;
         border-left: none;
         border-right: none;
         border-color: white;
@@ -64,8 +68,8 @@
         display: flex;
         text-align: center;
         list-style: none;
-        margin:auto;
-        padding:9px;
+        margin: auto;
+        padding: 9px;
 
 
     }
@@ -90,14 +94,16 @@
         transition: ease 0.05;
     }
 
-    .center { /* styling the News area */
+    .center {
+        /* styling the News area */
         margin-top: 40px;
         text-align: center;
-        background-image: linear-gradient(rgb(73, 111, 73), rgb(255, 216, 60));
+        background-image: linear-gradient(rgb(43, 47, 43), rgb(255, 216, 60));
         padding: 10px;
     }
 
-    .top-right { /*The header for the News */
+    .top-right {
+        /*The header for the News */
         color: rgb(0, 0, 0);
         text-decoration: underline;
         margin-bottom: -20px;
@@ -107,7 +113,8 @@
         font-size: 23px;
     }
 
-    .color { /* the text right below "News" */
+    .color {
+        /* the text right below "News" */
         color: rgb(46, 22, 22);
         font-size: 17px;
     }
@@ -116,7 +123,8 @@
         background-color: rgb(160, 31, 31);
     }
 
-    .foot-list { /* The footer's list */
+    .foot-list {
+        /* The footer's list */
 
         font-family: sans-serif;
         text-transform: uppercase;
@@ -145,7 +153,8 @@
         padding-right: 30px;
     }
 
-    .past-center { /* past news */
+    .past-center {
+        /* past news */
         text-align: center;
         color: rgb(255, 255, 255);
         padding-bottom: 20px;
@@ -164,7 +173,8 @@
         float: right;
         padding-right: 50px;
     }
-    main img{
+
+    main img {
         display: block;
         margin: auto;
         width: 100vw;
@@ -179,6 +189,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 501px) {
 
     /* PC or desktops */
@@ -187,10 +214,14 @@
         grid-template-rows: 160px 1fr auto;
         min-height: 100vh;
         width: 100%;
-        background-color: rgb(73, 111, 73);
+        background-color: rgb(43, 47, 43);
         margin: auto;
+        box-sizing: border-box;
     }
 
+    * {
+        box-sizing: border-box;
+    }
 
     header {
         background-image: linear-gradient(rgb(237, 214, 99), rgb(109, 7, 36));
@@ -198,7 +229,7 @@
         width: 100%;
         height: 100%;
         border-bottom: thick double #000000;
-        ;
+
         display: block;
 
     }
@@ -241,6 +272,7 @@
         list-style: none;
         padding-top: -27px;
 
+
     }
 
     nav ul li {
@@ -275,15 +307,21 @@
     .center {
         margin-top: 40px;
         text-align: center;
-        background-image: linear-gradient(rgb(73, 111, 73), rgb(255, 216, 60));
+        background-image: linear-gradient(rgb(43, 47, 43), rgb(255, 216, 60));
         padding: 10px;
+
+
+    }
+
+    .center>p {
+        font-size: 30px;
     }
 
     .top-right {
         color: rgb(0, 0, 0);
         text-decoration: underline;
         margin-bottom: -20px;
-        font-size: 40px;
+        font-size: 60px;
     }
 
     main div p {
@@ -332,28 +370,29 @@
         text-align: center;
         color: rgb(255, 255, 255);
         padding-bottom: 20px;
+        font-size: 30px;
+    }
+  
+    footer img {
+        width: 30px;
+
+        float: left;
+        padding-left: 50px;
 
     }
 
-footer img {
-    width: 30px;
+    footer p {
+        float: right;
+        padding-right: 50px;
+    }
 
-    float: left;
-    padding-left: 50px;
+    main img {
+        display: flex;
+        margin: auto;
+        width: auto;
+        height: auto;
+        margin-top: 10px;
 
-}
-
-footer p {
-    float: right;
-    padding-right: 50px;
-}
-
-main img{
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: auto;
-    
-}
+    }
 
 }

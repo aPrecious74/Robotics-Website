@@ -5,13 +5,18 @@
 
 body { /* structure format */
     display: grid;
-    grid-template-rows: 160px 1fr auto;
+    grid-template-rows: 150px 1fr auto;
     min-height: 100vh;
     width: 100%;
-    background-color: rgb(73, 111, 73);
+    background-color: rgb(217, 217, 217);
     margin: auto;
 }
-
+*{
+    box-sizing: border-box;
+}
+main p{
+    font-size: 30px;;
+}
 
 header {
     background-image: linear-gradient(rgb(237, 214, 99), rgb(109, 7, 36));
@@ -19,7 +24,6 @@ header {
     width: 100%;
     height: 100%;
     border-bottom: thick double #000000;
-    ;
     display: block;
 
 }
@@ -32,11 +36,11 @@ header h1 {
 }
 
 header h1 {
-    font-size: 27px;
+    font-size: 25px;
 }
 
 header h2 {
-    font-size: 45px;
+    font-size: 35px;
     background-color: rgb(255, 255, 255);
     border-style:groove;
     border-left: none;
@@ -60,14 +64,15 @@ nav ul {
     float: right;
     list-style: none;
     margin: auto;
-    margin-top: 8px;
+    padding-top: 20px;
 }
 
 nav ul li {
     display: flex;
     text-align: center;
     list-style: none;
-    padding-left: 25px;
+    margin:auto;
+    padding:9px;
 
 
 }
@@ -91,7 +96,6 @@ a:focus {
 
     transition: ease 0.05;
 }
-
 footer {
     background-color: rgb(160, 31, 31);
 }
